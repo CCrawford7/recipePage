@@ -1,0 +1,158 @@
+:root{
+ --beige: #F3E5D8;
+ --white: #ffffff;
+ --rose: #fff7fc;
+
+ --text-red: #9d647d;
+ --text-grey: #575150;
+ --text-brown: #823d37;
+
+ --title: "Young Serif", serif;
+ --body: "Outfit", sans-serif;
+
+ }
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ background-color: var(--beige);
+ font-family: var(--body);
+ color: var(--text-brown);
+}
+
+.container{
+ width: 800px;
+ margin: auto;
+ background-color: var(--white);
+ border-radius: 20px;
+}
+
+.header__image{
+ width: 100%;
+ border-radius: 20px;
+ 
+}
+
+.header__image--container{
+ margin: auto;
+ padding: 20px;
+ width: 90%;
+ border-radius: 20px;
+}
+
+.container__main--inner{
+ width: 85%;
+ margin: auto;
+}
+
+.directions{
+ background-color: var(--rose);
+ width: 100%;
+ margin: auto;
+ margin-top: 20px;
+ padding: 5%;
+ border-radius: 20px;
+}
+
+
+
+.directions__body{
+ margin-left: 20px;
+}
+
+
+.header__title--main{
+ font-family: var(--title);
+ font-size: 2.5rem;
+ color: black;
+}
+
+.header__subtitle--main{
+ color: black;
+ padding-top: 10px;
+}
+
+.directions__body--text{
+ color: var(--text-grey);
+ padding-top: 10px;
+}
+
+.attribution { 
+ font-size: 11px; 
+ text-align: center; 
+}
+.attribution a { 
+ color: hsl(228, 45%, 44%); 
+}
+
+#ingredients, 
+#instructions, 
+#nutrition{
+ font-family: var(--title);
+ font-size: 2rem;
+ padding-top: 30px;
+}
+
+.listTitle__body{
+ padding-top: 10px;
+}
+
+.listTitle__body--container{
+ width: 90%;
+ margin: auto;
+ padding-top: 20px;
+ position: relative;
+ left: -20px;
+}
+
+hr{
+ margin: 20px 0 20px 0;
+}
+
+
+.listTitle__main--body{
+ padding-top: 20px;
+ color: black;
+}
+
+ol{
+ width: 90%;
+ margin: auto;
+ padding-top: 20px;
+ position: relative;
+ left: -20px;
+}
+
+#nutrition{
+ font-family: var(--title);
+}
+
+.footer__subtitle--main{
+ color: black;
+}
+
+.footer__nutrition--container{
+ margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.footer__nutrition--body{
+ color: black;
+}
+
+.nutrition-row{
+ display: flex;
+ justify-content: space-between;
+}
+
+.bold{
+ width: 50%;
+ font-weight: 800;
+}
